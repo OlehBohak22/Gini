@@ -39,7 +39,7 @@ a {
   line-height: 1.42857;
 }
 
-.first-hrader-button {
+.first-header-button {
   font-weight: 400;
   font-size: 13px;
   line-height: 20px;
@@ -50,7 +50,13 @@ a {
   border: 0;
 }
 
-.second-hrader-button {
+.first-header-button:hover {
+  width: 160px;
+  height: 58px;
+  margin-right: 20px;
+}
+
+.second-header-button {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -60,6 +66,12 @@ a {
   height: 48px;
   background: #242424;
   border: 0;
+}
+
+.second-header-button:hover {
+  width: 160px;
+  height: 58px;
+  margin-left: 20px;
 }
 
 .logo {
@@ -74,6 +86,7 @@ a {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav-container {
@@ -81,8 +94,6 @@ a {
   gap: 74px;
 }
 
-.buttons-container {
-}
 /*main*/
 
 /*Title section*/
