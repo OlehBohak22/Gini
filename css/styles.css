@@ -4,7 +4,9 @@ body {
 }
 
 .section {
-  padding: 120px 0;
+  padding: 136px 0 122px 0;
+  background-image: url(/images/IMAGE.jpg);
+  background-position: center;
 }
 
 img {
@@ -180,6 +182,7 @@ a {
   line-height: 65px;
   line-height: 1.08333;
   color: #134b48;
+  width: 441px;
 }
 
 .green-text {
@@ -190,6 +193,14 @@ a {
   line-height: 1.57143;
   color: #134b48;
   width: 483px;
+  margin-top: 76px;
+}
+
+.first-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 145px;
 }
 
 /*Second section, green background*/
@@ -198,6 +209,7 @@ a {
   border-radius: 125px 0 0 0;
   padding: 98px 0 67px 40px;
   background: #264240;
+  margin-top: 118px;
 }
 
 .header-green-section {
@@ -206,6 +218,8 @@ a {
   line-height: 60px;
   line-height: 1.2;
   color: #fff;
+  margin-bottom: 97px;
+  width: 625px;
 }
 
 .green-section-list-item {
@@ -263,6 +277,27 @@ a {
   padding: 40px;
   background: rgba(255, 181, 149, 0.15);
   width: 504px;
+  margin-right: 21px;
+  align-self: center;
+}
+
+.row-list-container {
+  display: flex;
+  gap: 81px;
+  margin-left: 70px;
+}
+
+.underline-in-green-section {
+  width: 1120px;
+  height: 1px;
+  background: #fff;
+  margin-top: 15px;
+  margin-bottom: 70px;
+}
+
+.blocks-container {
+  display: flex;
+  align-items: center;
 }
 
 /*Section third*/
